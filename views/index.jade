@@ -2,4 +2,10 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  h4 Welcome to Trent's #{title}
+  p Example Usage
+  a(href="August 14, 2016") Try me - Natural : August 14, 2016
+  br
+  a(href="8482553122") Try me - Unix : 8482553122
+  p.red Expected Output is JSON
+  code { "unix": 8482553122, "natural", August 14, 2016  }
